@@ -24,3 +24,14 @@
 .SidebarOption--active{
     color: var(--twitter-color);
 }
+
+.Sidebar_tweet{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color:white !important;
+    font-weight: 900 !important;
+    text-transform: inherit;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px;
+}
