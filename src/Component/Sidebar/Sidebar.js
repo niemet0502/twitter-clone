@@ -10,10 +10,11 @@ import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import SidebarOption from "../SidebarOption/SidebarOption"
 import { Button } from "@material-ui/core"
+import "./Sidebar.css"
 function Sidebar() {
     return (
-        <div>
-            <TwitterIcon />
+        <div className="Sidebar">
+            <TwitterIcon className="Sidebar_twitterIcon" />
 
             <SidebarOption active Icon={HomeIcon} text="Home" />
             <SidebarOption  Icon={SearchIcon} text="Explore" />

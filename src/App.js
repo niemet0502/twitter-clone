@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Sidebar from "./Component/Sidebar/Sidebar"
+import Feed from "./Component/Feed/Feed"
+import Widgets from "./Component/Widgets/Widgets"
 function App() {
   return (
     <div className="App">
-      <h1>Marius NIEMET</h1>
       <Sidebar />
+      <Feed />
+      <Widgets />
     </div>
   );
 }
