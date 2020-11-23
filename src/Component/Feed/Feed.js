@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Feed.css"
+import TweetBox from "../TweetBox/TweetBox"
 function Feed() {
     return (
         <div className="feed">
@@ -7,39 +8,9 @@ function Feed() {
                 <h2>Home</h2>
             </div>
 
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
+            <TweetBox />
+            
 
-            <h3>TEST</h3>
-
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-
-            <h3>TEST</h3>
-
-            <h3>TEST</h3>
-
-            <h3>TEST</h3>
-
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-            <h3>TEST</h3>
-
-             <h3>TEST</h3>
-              <h3>TEST</h3>
-              <h3>TEST</h3>
-              
         </div>
     )
 }
