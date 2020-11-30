@@ -1,6 +1,6 @@
 .Sidebar{
     border-right: 1px solid var(--twitter-background);
-    flex: 0.3;
+    flex: 0.2;
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -14,7 +14,7 @@
     text-transform: inherit;
     border-radius: 30px !important;
     height: 50px !important;
-    margin-top: 20px;
+    margin-top: 30px !important;
 }
 
 .Sidebar_twitterIcon{
