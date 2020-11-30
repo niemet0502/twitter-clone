@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Feed.css"
 import TweetBox from "../TweetBox/TweetBox"
+import Post from "../../Component/Post/Post"
 function Feed() {
     return (
         <div className="feed">
@@ -9,67 +10,8 @@ function Feed() {
             </div>
 
             <TweetBox />
-            
-            efuwef <br />
-            efuwef <br />
-            efuwef <br />
-            efuwef <br />
 
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-             efuwef <br />
-              efuwef <br />
-              efuwef <br />
-              efuwef <br />
-              efuwef <br />
-              efuwef <br />
-
-              efuwef <br />
-              efuwef <br />
-              efuwef <br />
-
-               efuwef <br />
-               efuwef <br />
-               efuwef <br />
-               efuwef <br />
-               efuwef <br />
-
-                efuwef <br />
-                efuwef <br />
-                efuwef <br />
-                efuwef <br />
-                efuwef <br />
-                efuwef <br />
-                efuwef <br />
-
-                 efuwef <br />
-                 efuwef <br />
-                 efuwef <br />
-
-                 efuwef <br />
-
-                 efuwef <br /> efuwef <br />
-                 efuwef <br />
-
-                 efuwef <br />
-                  efuwef <br />
+            <Post />
 
         </div>
     )
