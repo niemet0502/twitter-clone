@@ -34,8 +34,9 @@
 }
 
 .icon_container{
-    width: 30px !important;
+    width: 28px !important;
     color: var(--twitter-color) !important;
+    margin-right: 12px;
 }
 .icon_container svg{
     fill: var(--twitter-color) !important;
@@ -44,4 +45,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 85px;
 }

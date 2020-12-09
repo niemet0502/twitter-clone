@@ -8,7 +8,7 @@ function TweetBox() {
         <div className="TweetBox">
             <form action="">
                 <div className="TweetBox_input">
-                    <Avatar src={profil} />
+                    <img src={profil} width="25px" alt="" className="Suggestion_image"/>
                     <input type="text" placeholder="Quoi de neuf ? "/>
                    
                 </div>
