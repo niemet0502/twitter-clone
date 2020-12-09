@@ -16,3 +16,14 @@
     flex-grow: 2;
     padding-left: 10px;
 }
+
+.Suggestion_button{
+    background-color: transparent !important;
+    border: 1px solid var(--twitter-color) !important;
+    color:var(--twitter-color) !important;
+    text-transform: inherit;
+    font-weight: 900 !important;
+    border-radius: 30px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}

@@ -16,7 +16,7 @@ function Widgets() {
             <div className="widgets_widgetContainer">
                 <h2>Suggestions</h2>
                 <hr style={{width: "95%"}} />
-                <Suggestion name="マヌー" pseudo="@manusquall" />
+                <Suggestion name="マヌー" pseudo="manusquall" />
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Suggestion.css"
+import { Button } from "@material-ui/core"
 function Suggestion({image, name, pseudo}) {
     return (
         <div className="Suggestion">
@@ -8,7 +9,7 @@ function Suggestion({image, name, pseudo}) {
                 <h3 className="suggestion_name">{name}</h3>
                 <h6 className="Suggestion_pseudo"> @{pseudo} </h6>
             </div>
-            <button className="Suggestion_button">Suivre</button>
+            <Button className="Suggestion_button">Suivre</Button>
         </div>
     )
 }
