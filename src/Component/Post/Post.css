@@ -9,7 +9,7 @@
 .post{
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     border-bottom: 1px solid var(--twitter-background);
     padding-bottom: 10px;
 }
