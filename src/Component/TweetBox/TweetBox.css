@@ -32,3 +32,16 @@
     margin-top: 20px;
     margin-left: auto !important;
 }
+
+.icon_container{
+    width: 30px !important;
+    color: var(--twitter-color) !important;
+}
+.icon_container svg{
+    fill: var(--twitter-color) !important;
+}
+.TweetBox_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
