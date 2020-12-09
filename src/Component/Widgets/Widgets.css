@@ -33,3 +33,11 @@
     margin-left:8px;
     font-weight: 800;
 }
+
+.widgets_widgetContainer_link{
+    text-decoration: none;
+    color: var(--twitter-color);
+    margin-top: 5px;
+    margin-left: 10px ;
+    margin-bottom: 15px;
+}

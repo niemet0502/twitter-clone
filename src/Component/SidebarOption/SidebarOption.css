@@ -13,6 +13,7 @@
 
 .SidebarOption > .MuiSvgIcon-root{
     padding: 15px;
+    font-size: 35px !important;
 }
 
 .SidebarOption h2{

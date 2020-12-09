@@ -16,7 +16,13 @@ function Widgets() {
             <div className="widgets_widgetContainer">
                 <h2>Suggestions</h2>
                 <hr style={{width: "95%"}} />
-                <Suggestion name="マヌー" pseudo="manusquall" />
+                <Suggestion image="https://pbs.twimg.com/profile_images/1334292218471993345/wYvD5acG_400x400.jpg" name="マヌー" pseudo="manusquall" />
+                <hr style={{width: "95%"}} />
+                <Suggestion image="https://pbs.twimg.com/profile_images/1317271501180207106/OaM5L8yq_400x400.jpg" name="ᴅᴀᴏᴏᴅᴀ." pseudo="daoodaba975" />
+                <hr style={{width: "95%"}} />
+                <Suggestion image="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png" name="Exba Jr" pseudo="jr_exba" />
+                <hr style={{width: "95%"}} />
+                <a href="#!" className="widgets_widgetContainer_link">Voir plus</a>
             </div>
         </div>
     )

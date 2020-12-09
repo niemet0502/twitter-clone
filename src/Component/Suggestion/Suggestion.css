@@ -7,10 +7,17 @@
     display: flex;
     align-items: center;
     align-self: stretch;
-
+    margin-bottom: 2px;
 }
 .Suggestion_container h3, .Suggestion_container h6{
     margin: 0px !important;
+}
+.Suggestion_container h3{
+    font-size: 20px;
+}
+.Suggestion_container h6{
+    color: rgb(91, 112, 131);
+    font-weight: normal !important;
 }
 .Suggestion_container{
     flex-grow: 2;
