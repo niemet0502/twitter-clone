@@ -47,3 +47,13 @@
     align-items: center;
     margin-left: 85px;
 }
+
+.TweetBox_input > input{
+    border: 1px solid white;
+    padding-left: 5px;
+}
+.TweetBox_input > input::placeholder{
+    font-size: 20px;
+    color: rgb(91, 112, 131);
+    font-weight: normal !important;
+}

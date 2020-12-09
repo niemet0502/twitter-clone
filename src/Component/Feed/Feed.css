@@ -19,9 +19,11 @@
     z-index: 100;
     border: 1px solid var(--twitter-background);
     padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .feed_header > h2{
     font-size: 20px;
     font-weight: 800;
-    background-color: red;
 }
