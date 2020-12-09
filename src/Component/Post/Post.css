@@ -1,0 +1,31 @@
+
+.post_body > img{
+    border-radius: 20px;
+}
+.post_body {
+    flex: 1;
+    padding: 10px;
+}
+.post{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+}
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.post_headerDescription{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.post_headerText > h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
