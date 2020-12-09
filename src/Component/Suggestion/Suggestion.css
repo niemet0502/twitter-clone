@@ -1,0 +1,18 @@
+.Suggestion_image{
+    width: 65px !important;
+    border-radius: 50%;
+}
+.Suggestion{
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+
+}
+.Suggestion_container h3, .Suggestion_container h6{
+    margin: 0px !important;
+}
+.Suggestion_container{
+    flex-grow: 2;
+    padding-left: 10px;
+}
