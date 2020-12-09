@@ -10,8 +10,12 @@ function Widgets() {
                 <input type="text" placeholder="Search Twitter" name="" id=""/>
             </div>
             <div className="widgets_widgetContainer">
-                <h2>What's Happening</h2>
-                <TwitterTweetEmbed tweetId={"1333537026944217088"} />
+                <h2>Tendances pour vous </h2>
+                <hr style={{width: "95%"}} />
+            </div>
+            <div className="widgets_widgetContainer">
+                <h2>Suggestions</h2>
+               
             </div>
         </div>
     )
