@@ -15,7 +15,7 @@ function Widgets() {
             </div>
             <div className="widgets_widgetContainer">
                 <h2>Suggestions</h2>
-               
+                <hr style={{width: "95%"}} />
             </div>
         </div>
     )
