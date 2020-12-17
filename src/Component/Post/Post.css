@@ -19,12 +19,17 @@
     margin-top: 10px;
     width: 100%;
 }
-
+.post_avatar{
+    margin-top: 20px;
+}
 .post_headerDescription{
     font-size: 15px;
     margin-bottom: 10px;
 }
-
+.post_headerText{
+    display: flex;
+    align-items: center;
+}
 .post_headerText > h3{
     font-size: 15px;
     margin-bottom: 5px;

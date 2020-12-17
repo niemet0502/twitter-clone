@@ -12,10 +12,10 @@
 .Suggestion_container h3, .Suggestion_container h6{
     margin: 0px !important;
 }
-.Suggestion_container h3{
+.suggestion_name{
     font-size: 20px;
 }
-.Suggestion_container h6{
+.Suggestion_pseudo{
     color: rgb(91, 112, 131);
     font-weight: normal !important;
 }
