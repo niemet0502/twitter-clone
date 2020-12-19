@@ -12,6 +12,7 @@
     flex-direction: row;
     border-bottom: 1px solid var(--twitter-background);
     padding-bottom: 10px;
+    padding-left: 5px;
 }
 .post_footer {
     display: flex;
