@@ -7,7 +7,7 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import RepeatIcon from '@material-ui/icons/Repeat';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PublishIcon from '@material-ui/icons/Publish';
-
+import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 function Post({displayName, username, verified, text, image, avatar, time}) {
     return (
@@ -19,10 +19,15 @@ function Post({displayName, username, verified, text, image, avatar, time}) {
                 <div className="post_body">
                         <div className="post_header">
                             <div className="post_headerText">
+                              <div>
                                 <h3  className="suggestion_name"> マリウス {" "}
-                                    <span> <VerifiedUserIcon /> </span> </h3>
-                                    <h5 className="Suggestion_pseudo">@mariusniemet05</h5>
-                                    <h6 className="Suggestion_pseudo">· 12 déc.</h6>
+                                <span> <VerifiedUserIcon /> </span> </h3>
+                                <h5 className="Suggestion_pseudo">@mariusniemet05</h5>
+                                <h6 className="Suggestion_pseudo">· 12 déc.</h6>
+                              </div>
+                              <div>
+                                <MoreHorizIcon />
+                              </div>
                             </div>
                             <div className="post_headerDescription">
                                 <p>Twitter Clone by Marius</p>

@@ -29,6 +29,10 @@
 .post_headerText{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.post_headerText div:first-child{
+    display: flex;
 }
 .post_headerText > h3{
     font-size: 15px;
