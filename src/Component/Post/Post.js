@@ -15,13 +15,13 @@ function Post({displayName, username, verified, text, image, avatar, time}) {
                 <div className="post_avatar">
                     <img className="Suggestion_image" src="https://pbs.twimg.com/profile_images/1325577759033339905/w2UOSqKh_400x400.jpg" />
                 </div>
-            <div style={{border: "1px solid red"}}>
+            <div>
                 <div className="post_body">
                         <div className="post_header">
                             <div className="post_headerText">
                               <div>
                                 <h3  className="suggestion_name"> マリウス {" "}
-                                <span> <VerifiedUserIcon /> </span> </h3>
+                                <span> <VerifiedUserIcon className="post_badge" /> </span> </h3>
                                 <h5 className="Suggestion_pseudo">@mariusniemet05</h5>
                                 <h6 className="Suggestion_pseudo">· 12 déc.</h6>
                               </div>

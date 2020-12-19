@@ -38,3 +38,7 @@
     font-size: 15px;
     margin-bottom: 5px;
 }
+.post_badge{
+    font-size: 18px !important;
+    color: var(--twitter-color);
+}
