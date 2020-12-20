@@ -18,7 +18,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    width: 100%;
+    width: 75%;
+    margin-left: 7%;
 }
 .post_avatar{
     margin-top: 20px;
@@ -26,6 +27,10 @@
 .post_headerDescription{
     font-size: 15px;
     margin-bottom: 10px;
+    margin-top: 0px;
+}
+.post_headerDescription p{
+    margin: 0px;
 }
 .post_headerText{
     display: flex;
@@ -42,4 +47,8 @@
 .post_badge{
     font-size: 18px !important;
     color: var(--twitter-color);
+}
+.post_body img{
+    max-height: 500px;
+    width: 100%;
 }

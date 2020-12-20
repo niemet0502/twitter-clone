@@ -14,8 +14,23 @@ function Feed() {
 
             <TweetBox />
 
+            <Post 
+                image="https://pbs.twimg.com/media/EpsShUAXUAM05OF?format=jpg&name=small"
+                avatar="https://pbs.twimg.com/profile_images/1311271609546821632/HX-51tbt_400x400.jpg"
+                text="Quand tu suit toutes les suggestions du client à la lettre"
+                displayName="Galsen Dev "
+                username="galsendev221"
+                time="4h"
+            />
+            <Post
+                image="https://pbs.twimg.com/media/EpSRHlMU0AEnNOi?format=jpg&name=small"
+                avatar="https://pbs.twimg.com/profile_images/1340373451681480706/BcnsAl36_400x400.jpg"
+                displayName="Japan"
+                username="jxpann"
+                time="14 dec"
+                text="Neon japan"
+            />
             <Post />
-
         </div>
     )
 }
