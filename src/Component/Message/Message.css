@@ -1,13 +1,15 @@
 .message{
     position: fixed;
-    border: 1px solid red;
+    border: 1px solid white;
+    border-radius: 20px;
     right: 30px;
     bottom: 0%;
-    height: 100px;
+    height: 80px;
     width: 400px;
     transition: 0.5s;
     z-index: 1;
     transform: translateY(0);
+    box-shadow: rgba(136, 153, 166, 0.2) 0px 0px 15px, rgba(136, 153, 166, 0.15) 0px 0px 3px;
 }
 .message_height{
     height: 300px;
@@ -18,3 +20,10 @@
     align-items: center;
     justify-content: space-between;
 }
+.message_header{
+    padding: 1px 10px;
+}
+
+/*
+    box-shadow: rgba(136, 153, 166, 0.2) 0px 0px 15px, rgba(136, 153, 166, 0.15) 0px 0px 3px 
+*/
