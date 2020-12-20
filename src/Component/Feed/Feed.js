@@ -15,6 +15,14 @@ function Feed() {
             <TweetBox />
 
             <Post 
+                avatar="https://pbs.twimg.com/profile_images/1340426458024521728/pRgyamV-_400x400.jpg"
+                displayName="Ou Ki Shogun "
+                username="alioune_kanoute"
+                time="1h"
+                text="20 minutes, je risque de faire du Eminem "
+            />
+
+            <Post 
                 image="https://pbs.twimg.com/media/EpsShUAXUAM05OF?format=jpg&name=small"
                 avatar="https://pbs.twimg.com/profile_images/1311271609546821632/HX-51tbt_400x400.jpg"
                 text="Quand tu suit toutes les suggestions du client à la lettre"
