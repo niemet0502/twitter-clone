@@ -30,7 +30,13 @@ function Feed() {
                 time="14 dec"
                 text="Neon japan"
             />
-            <Post />
+            <Post 
+                image="https://pbs.twimg.com/media/EpRW8uIXEAYXvL5?format=jpg&name=small"
+                avatar="https://pbs.twimg.com/profile_images/1334429774475898883/ByXBPhxk_400x400.jpg"
+                displayName="Gaak"
+                text="Le Saviez-vous ?! Le 15 Décembre est la journée mondiale des Otakus !"
+                username="gaak_fr"
+            />
         </div>
     )
 }
