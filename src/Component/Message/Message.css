@@ -1,0 +1,20 @@
+.message{
+    position: fixed;
+    border: 1px solid red;
+    right: 30px;
+    bottom: 0%;
+    height: 100px;
+    width: 400px;
+    transition: 0.5s;
+    z-index: 1;
+    transform: translateY(0);
+}
+.message_height{
+    height: 300px;
+}
+
+.message div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

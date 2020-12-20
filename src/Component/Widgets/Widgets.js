@@ -2,6 +2,7 @@ import React from 'react'
 import "./Widgets.css"
 import SearchIcon from '@material-ui/icons/Search';
 import Suggestion from "../Suggestion/Suggestion"
+import Message from "../../Component/Message/Message"
 function Widgets() {
     return (
         <div className="Widgets">
@@ -24,6 +25,7 @@ function Widgets() {
                 <hr style={{width: "95%"}} />
                 <a href="#!" className="widgets_widgetContainer_link">Voir plus</a>
             </div>
+            <Message />
         </div>
     )
 }
