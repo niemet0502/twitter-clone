@@ -26,3 +26,12 @@
     color: var(--twitter-color);
 }
 
+@media screen and (max-width: 1245px){
+    .SidebarOption{
+        width: auto !important;
+    }
+    .SidebarOption h2{
+        display: none;
+    }
+}
+

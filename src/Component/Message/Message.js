@@ -27,7 +27,7 @@ function Message() {
             </div>
             <h1>Les Messages</h1>
         </div>
-    )
+    ) 
 }
 
 export default Message
