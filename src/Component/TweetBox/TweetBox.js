@@ -8,7 +8,7 @@ function TweetBox() {
         <div className="TweetBox">
             <form action="">
                 <div className="TweetBox_input">
-                    <img src="https://pbs.twimg.com/profile_images/1325577759033339905/w2UOSqKh_400x400.jpg" width="25px" alt="" className="Suggestion_image"/>
+                    <img src="https://pbs.twimg.com/profile_images/1341855731486760967/0Q-YCn8r_400x400.jpg" width="25px" alt="" className="Suggestion_image"/>
                     <input type="text" placeholder="Quoi de neuf ? "/>
                    
                 </div>

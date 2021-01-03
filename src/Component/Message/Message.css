@@ -16,12 +16,18 @@
 }
 
 .message div{
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .message_header{
     padding: 1px 10px;
+    display: flex;
+}
+.message_header_container{
+    display: flex;
+}
+.message_header_container svg{
+    fill: var(--twitter-color);
 }
 
 /*

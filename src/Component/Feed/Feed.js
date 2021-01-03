@@ -14,6 +14,21 @@ function Feed() {
 
             <TweetBox />
 
+            <Post
+                image="https://pbs.twimg.com/media/EpSRHlMU0AEnNOi?format=jpg&name=small"
+                avatar="https://pbs.twimg.com/profile_images/1340373451681480706/BcnsAl36_400x400.jpg"
+                displayName="Japan"
+                username="jxpann"
+                time="14 dec"
+                text="Neon japan"
+            />
+            <Post 
+                image="https://pbs.twimg.com/media/EpRW8uIXEAYXvL5?format=jpg&name=small"
+                avatar="https://pbs.twimg.com/profile_images/1334429774475898883/ByXBPhxk_400x400.jpg"
+                displayName="Gaak"
+                text="Le Saviez-vous ?! Le 15 Décembre est la journée mondiale des Otakus !"
+                username="gaak_fr"
+            />
             <Post 
                 avatar="https://pbs.twimg.com/profile_images/1340426458024521728/pRgyamV-_400x400.jpg"
                 displayName="Ou Ki Shogun "
@@ -29,21 +44,6 @@ function Feed() {
                 displayName="Galsen Dev "
                 username="galsendev221"
                 time="4h"
-            />
-            <Post
-                image="https://pbs.twimg.com/media/EpSRHlMU0AEnNOi?format=jpg&name=small"
-                avatar="https://pbs.twimg.com/profile_images/1340373451681480706/BcnsAl36_400x400.jpg"
-                displayName="Japan"
-                username="jxpann"
-                time="14 dec"
-                text="Neon japan"
-            />
-            <Post 
-                image="https://pbs.twimg.com/media/EpRW8uIXEAYXvL5?format=jpg&name=small"
-                avatar="https://pbs.twimg.com/profile_images/1334429774475898883/ByXBPhxk_400x400.jpg"
-                displayName="Gaak"
-                text="Le Saviez-vous ?! Le 15 Décembre est la journée mondiale des Otakus !"
-                username="gaak_fr"
             />
         </div>
     )
