@@ -27,3 +27,8 @@ npm install or yarn install
 npm start
 ```
 
+* APP
+
+<br>
+<img width="90%" src="src/img/twitter.PNG">
+
