@@ -7,7 +7,6 @@ function Message() {
         const btn = document.querySelector(".clickme");
         btn.addEventListener('click', function(event){
             document.querySelector(".message").classList.toggle("message_height");
-            console.log('marius')
         })
         
         
