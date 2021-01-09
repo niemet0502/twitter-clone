@@ -22,7 +22,9 @@
 .message_header{
     padding: 1px 10px;
     display: flex;
+    border-bottom: 1px solid rgb(235, 238, 240);
 }
+
 .message_header_container{
     display: flex;
 }
