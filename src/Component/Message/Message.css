@@ -30,6 +30,10 @@
     fill: var(--twitter-color);
 }
 
+.clickme:hover{
+    cursor: pointer;
+}
+
 /*
     box-shadow: rgba(136, 153, 166, 0.2) 0px 0px 15px, rgba(136, 153, 166, 0.15) 0px 0px 3px 
 */
