@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react'
 import "./Message.css"
+import MessageBox from "../MessageBox/MessageBox"
+
+
 function Message() {
 
     useEffect(() => {
@@ -26,7 +29,19 @@ function Message() {
                     </div>
                 </div>
             </div>
-            <h1>Les Messages</h1>
+            <div className="message_content">
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+                <MessageBox />
+            </div>
         </div>
     ) 
 }
