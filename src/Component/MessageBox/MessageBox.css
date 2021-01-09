@@ -1,0 +1,37 @@
+.MessageBox{
+  padding: 15px;
+  display: flex;
+
+}
+
+.MessageBox_content{
+  flex: 2;
+  padding-left: 10px;
+}
+
+.MessageBox_content p{
+  margin: 5px;
+  margin-left: 0px;
+  color: rgb(91, 112, 131);
+}
+.MessageBox_content_header{
+  display: flex;
+}
+.MessageBox_content_header_title{
+  display: flex;
+}
+.MessageBox_content_header_title h1{
+  font-size: 15px;
+  margin: 0;
+}
+.MessageBox_content_header_title h3{
+  font-size: 12px;
+  margin: 0;
+}
+
+.MessageBox_content_header h5{
+  font-size: 13px;
+  margin: 0;
+  color: rgb(91, 112, 131);
+  font-weight: normal;
+}
