@@ -14,6 +14,7 @@
 .message_content{
   overflow-y: auto;
   height: 100%;
+  padding-bottom: 150px;
 }
 .message_height{
     height: 300px;
