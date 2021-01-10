@@ -30,6 +30,6 @@ npm start
 * APP
 
 <br>
-<img width="90%" src="src/assets/twitter.PNG">
+<img width="90%" src="src/Assets/twitter.PNG">
 
 <a href="https://twitter-clone-mar.netlify.app/" target="_blank">Live</a>
