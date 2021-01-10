@@ -30,17 +30,48 @@ function Message() {
                 </div>
             </div>
             <div className="message_content">
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
-                <MessageBox />
+                <MessageBox 
+                    image="https://pbs.twimg.com/profile_images/1334429774475898883/ByXBPhxk_400x400.jpg"
+                    name="Gaak.fr"
+                    displayname="@gaak_fr"
+                    date="6 janv"
+                    message="Hello Marius"
+                />
+                <MessageBox 
+                    image="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png"
+                    name="React"
+                    displayname="@reactjs"
+                    date="25 dec"
+                    message="React js content"
+                />
+                <MessageBox
+                    image="https://pbs.twimg.com/profile_images/1163911054788833282/AcA2LnWL_400x400.jpg"
+                    name="Laravel"
+                    displayname="@laravelphp"
+                    date="22 nov"
+                    message="I'm Laravel a web artisans"
+                />
+                <MessageBox
+                    image="https://pbs.twimg.com/profile_images/1095419255133270017/O5hGMSeF_400x400.jpg"
+                    name="BuyCoins"
+                    displayname="@buycoins_africa"
+                    date="10 oct"
+                    message="yes we are only avalable"
+                />
+                <MessageBox
+                    image="https://pbs.twimg.com/profile_images/1336281436685541376/fRSl8uJP_400x400.jpg"
+                    name="Dan Abramov"
+                    displayname="@dan_abramov"
+                    date="2 sep"
+                    message="Hello I'm Dan"
+                />
+                <MessageBox
+                    image=""
+                    name=""
+                    displayname=""
+                    date=""
+                    message=""
+                />
             </div>
         </div>
     ) 
